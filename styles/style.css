@@ -127,21 +127,36 @@ body {
     text-align: center;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 439px) {
     .cabecalho {
-        padding: 4%;
+        padding: 10%;
     }
-
     .cabecalho__menu{
         justify-content: center;
     }
-
+    .cabecalho__menu__link {
+        font-size: 1rem;
+    }
     .apresentacao {
         padding: 5% ;
         flex-direction: column-reverse;
     }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
 
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao {
+        padding: 5% ;
+        flex-direction: column-reverse;
+    }
     .apresentacao__conteudo {
         width: auto;
     }
