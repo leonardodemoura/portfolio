@@ -115,7 +115,9 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
-    height: 70vh;
+    height: 500px;
+    margin-bottom: 40%;
+    border: 4px solid var(--cor-terciaria);
     border-radius: 30px;
 }
 
@@ -131,7 +133,7 @@ body {
 
 @media (max-width: 439px) {
     .cabecalho {
-        padding: 10%;
+        margin-top: 10px;
     }
     .cabecalho__menu{
         justify-content: center;
@@ -144,8 +146,11 @@ body {
         flex-direction: column-reverse;
     }
     .apresentacao__conteudo {
-        width: auto;
-        height: 50vh;
+        width: 50%;
+    }
+    .apresentacao__conteudo__titulo {
+        font-family: var(--fonte-primaria);
+        font-size: 1.5rem;
     }
 }
 
@@ -163,10 +168,10 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
-
     .apresentacao__imagem {
-        width: auto;
-
+    width: auto;
+    margin: 0px;
+    border-radius: 30px;
     }
 }
 
