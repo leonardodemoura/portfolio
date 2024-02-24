@@ -116,6 +116,7 @@ body {
 .apresentacao__imagem {
     width: 50%;
     height: 70vh;
+    border-radius: 30px;
 }
 
 .rodape {
@@ -144,12 +145,13 @@ body {
     }
     .apresentacao__conteudo {
         width: auto;
+        height: 50vh;
     }
 }
 
 @media  (max-width: 1200px) {
     .cabecalho {
-        padding: 1%;
+        padding: 3%;
     }
     .cabecalho__menu{
         justify-content: center;
@@ -164,6 +166,7 @@ body {
 
     .apresentacao__imagem {
         width: auto;
+
     }
 }
 
